@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    margin: 0;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+h1 {
+    margin: 60px;
+    font-size: 90px;
+    text-align: center;
+    color: #bcbee6;
+    font-family: 'Courgette', cursive;
+  }
+  
+p{
+    text-align: center;
+    color: #bcbee6;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 70px;
+}
+
+
+nav {
+    margin: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.myButton {
+    background: #7f5a83;
+    background-image: -webkit-linear-gradient(top, #7f5a83, #193d52);
+    background-image: -moz-linear-gradient(top, #7f5a83, #193d52);
+    background-image: -ms-linear-gradient(top, #7f5a83, #193d52);
+    background-image: -o-linear-gradient(top, #7f5a83, #193d52);
+    background-image: linear-gradient(to bottom, #7f5a83, #193d52);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #7f5a83 1px;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .myButton:hover {
+    background: #dfa9e6;
+    background-image: -webkit-linear-gradient(top, #9e82a1, #315e79);
+    background-image: -moz-linear-gradient(top, #9e82a1, #315e79);
+    background-image: -ms-linear-gradient(top,  #9e82a1, #315e79);
+    background-image: -o-linear-gradient(top, #9e82a1, #315e79);
+    background-image: linear-gradient(to bottom, #9e82a1, #315e79);
+    text-decoration: none;
+  
+  }
+  .myButton:active {
+      position:relative;
+      top:1px;
+  }
+
+  .fade-in2 {
+	-webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+	        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+}
+
+
+.fade-in {
+	-webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

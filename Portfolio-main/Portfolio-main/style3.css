@@ -1,0 +1,218 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #090947;
+    background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
+    height: 100%;
+}
+
+
+body.active {
+  background: white; 
+}
+
+.btn2 {
+
+    font-weight: bold;
+    font-size: 14px;
+    color: #493f73;
+background-color: #a59cc9;
+    padding: 10px 30px;
+    box-shadow: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 25px;
+    height: 25px;
+}
+
+#vertical-menu {
+    width: 200px; /* Set a width if you like */
+    margin-left: 20px;
+    margin-top: 150px;
+  }
+  
+  #vertical-menu button {
+  
+    display: flex; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+
+.btn {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    background-color: #5b4e8d;
+    padding: 10px 44px;
+    /* border: solid #453873 1px; */
+    /* box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; */
+    border-radius: 6px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+
+
+
+
+.btn:hover{
+
+  transition : 795ms;
+  padding: 20px 66px;
+  transform : translateY(-0px);
+    padding: 10px 50px;
+    background-color: #d6d2e6;
+    color: #584c83;
+    border: solid 2px #584c83;
+    }
+
+
+
+
+
+
+
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+
+  
+
+   
+
+.desc {
+    display: flex;
+    justify-content: center;
+    margin-top: -12%;
+    margin-left: 35%;
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #040420;
+    background: #584c83;
+    width: 400px;
+    height: 300px;
+    padding: 10px 44px;
+    color: #70649c;
+    text-align: center;
+    color: #bcbee6;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  
+
+}
+
+.description {
+  flex-wrap: wrap;
+    justify-content: center;
+}
+
+#resume {
+    text-decoration: none;
+}
+
+/* .description.active, .bt2.active {
+    position: relative;
+    margin: 10px;
+    visibility: hidden;
+} */
+
+
+h1 {
+    margin: 60px;
+    margin-bottom: 20px;
+    font-size: 90px;
+    text-align: center;
+    color: #bcbee6;
+    font-family: 'Courgette', cursive;
+  }
+
+nav {
+    margin: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.myButton {
+    background: #7f5a83;
+    background-image: -webkit-linear-gradient(top, #7f5a83, #193d52);
+    background-image: -moz-linear-gradient(top, #7f5a83, #193d52);
+    background-image: -ms-linear-gradient(top, #7f5a83, #193d52);
+    background-image: -o-linear-gradient(top, #7f5a83, #193d52);
+    background-image: linear-gradient(to bottom, #7f5a83, #193d52);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #7f5a83 1px;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .myButton:hover {
+    background: #dfa9e6;
+    background-image: -webkit-linear-gradient(top, #9e82a1, #315e79);
+    background-image: -moz-linear-gradient(top, #9e82a1, #315e79);
+    background-image: -ms-linear-gradient(top,  #9e82a1, #315e79);
+    background-image: -o-linear-gradient(top, #9e82a1, #315e79);
+    background-image: linear-gradient(to bottom, #9e82a1, #315e79);
+    text-decoration: none;
+  
+  }
+  .myButton:active {
+      position:relative;
+      top:1px;
+  }
+
+
+  .fade-in2 {
+	-webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+	        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+
+
+.fade-in {
+	-webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
